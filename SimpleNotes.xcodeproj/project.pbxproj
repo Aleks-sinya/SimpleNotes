@@ -69,19 +69,19 @@
 				A1B8367727F8465200B5A626 /* Models */,
 				A1B8367627F8464100B5A626 /* App */,
 				A1B8367827F8465D00B5A626 /* ViewControllers */,
-				A1B8367427F844AC00B5A626 /* Storuboards */,
+				A1B8367427F844AC00B5A626 /* Storyboards */,
 				A1B8367527F8462600B5A626 /* Resources */,
 			);
 			path = SimpleNotes;
 			sourceTree = "<group>";
 		};
-		A1B8367427F844AC00B5A626 /* Storuboards */ = {
+		A1B8367427F844AC00B5A626 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				A1B8366627F8440100B5A626 /* Main.storyboard */,
 				A1B8366B27F8440200B5A626 /* LaunchScreen.storyboard */,
 			);
-			path = Storuboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		A1B8367527F8462600B5A626 /* Resources */ = {
