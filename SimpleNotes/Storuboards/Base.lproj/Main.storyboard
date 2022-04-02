@@ -106,7 +106,7 @@
                                     </connections>
                                 </button>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstItem="mLK-qg-6Iy" firstAttribute="centerY" secondItem="o8U-7a-RIh" secondAttribute="centerY" id="0nW-Zj-1dc"/>
                                 <constraint firstItem="mLK-qg-6Iy" firstAttribute="top" secondItem="o8U-7a-RIh" secondAttribute="top" constant="21" id="gES-yk-4Nl"/>
@@ -130,6 +130,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -216,7 +217,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h5t-0i-0Sq">
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h5t-0i-0Sq">
                                                     <rect key="frame" x="16" y="0.0" width="382" height="35"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="34.329999999999998" id="0at-AO-WBl"/>
@@ -235,6 +236,7 @@
                                                 <constraint firstItem="h5t-0i-0Sq" firstAttribute="top" secondItem="gWe-AK-vN1" secondAttribute="top" id="yjr-au-6ra"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -263,6 +265,7 @@
                                                 <constraint firstItem="Ino-Bq-bWr" firstAttribute="leading" secondItem="EUi-vh-gIF" secondAttribute="leading" constant="16" id="w3r-Hn-Xry"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
