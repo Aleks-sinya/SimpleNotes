@@ -9,11 +9,7 @@ import UIKit
 
 class EntryViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
-    
+    //MARK: - IB Actions
     @IBAction func developersButtonTapped(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         if let developerVC = storyboard.instantiateViewController(identifier: "DevelopersVC") as? DevelopersViewController {
