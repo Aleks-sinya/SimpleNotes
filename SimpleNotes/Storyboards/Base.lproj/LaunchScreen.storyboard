@@ -26,6 +26,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vA6-y2-A46" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ga3-Y2-mTG"/>
                             <constraint firstItem="vA6-y2-A46" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="lGs-Ch-Cwc"/>
@@ -39,6 +40,9 @@
     </scenes>
     <resources>
         <image name="note.text" catalog="system" width="128" height="106"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

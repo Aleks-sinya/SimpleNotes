@@ -14,7 +14,7 @@ class DevelopersViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.setHidesBackButton(true, animated: false)
-        tableView.rowHeight = 120
+        tableView.rowHeight = 80
     }
 
     override func viewDidLayoutSubviews() {
