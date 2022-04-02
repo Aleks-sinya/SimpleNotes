@@ -59,12 +59,20 @@
 				A1B8366027F8440100B5A626 /* AppDelegate.swift */,
 				A1B8366227F8440100B5A626 /* SceneDelegate.swift */,
 				A1B8366427F8440100B5A626 /* ViewController.swift */,
-				A1B8366627F8440100B5A626 /* Main.storyboard */,
+				A1B8367427F844AC00B5A626 /* Storuboards */,
 				A1B8366927F8440200B5A626 /* Assets.xcassets */,
-				A1B8366B27F8440200B5A626 /* LaunchScreen.storyboard */,
 				A1B8366E27F8440200B5A626 /* Info.plist */,
 			);
 			path = SimpleNotes;
+			sourceTree = "<group>";
+		};
+		A1B8367427F844AC00B5A626 /* Storuboards */ = {
+			isa = PBXGroup;
+			children = (
+				A1B8366627F8440100B5A626 /* Main.storyboard */,
+				A1B8366B27F8440200B5A626 /* LaunchScreen.storyboard */,
+			);
+			path = Storuboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +312,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
