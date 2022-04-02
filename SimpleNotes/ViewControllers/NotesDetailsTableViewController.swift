@@ -86,5 +86,4 @@ extension UIView {
         gradient.endPoint = CGPoint(x: 0, y: 1)
         layer.insertSublayer(gradient, at: 0)
     }
-    
 }
