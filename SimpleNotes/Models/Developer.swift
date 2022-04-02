@@ -5,7 +5,6 @@
 //  Created by Алексей Синяговский on 02.04.2022.
 //
 
-
 struct Developer {
     let nickName: String
     let realName: String
