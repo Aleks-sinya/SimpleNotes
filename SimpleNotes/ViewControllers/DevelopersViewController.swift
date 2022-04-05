@@ -16,30 +16,33 @@ class DevelopersViewController: UITableViewController {
         self.navigationItem.setHidesBackButton(true, animated: false)
         tableView.rowHeight = 80
     }
-
+    
     override func viewDidLayoutSubviews() {
         view.addVerticalGradientLayerDevelopersVC()
     }
-        
-        //MARK: - Life Cycles Methods
+    
+    //MARK: - Life Cycles Methods
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         developersList.count
     }
-
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellWithAuthors", for: indexPath)
         let developer = developersList[indexPath.row]
         var content = cell.defaultContentConfiguration()
+        
         content.text = developer.nickName
         content.secondaryText = developer.realName
         content.image = UIImage(named: developer.nickName)
         content.imageProperties.cornerRadius = tableView.rowHeight / 2
         cell.contentConfiguration = content
+        
         return cell
-        }
     }
+}
 
-    // MARK: - Set gradient background color
+// MARK: - Set gradient background color
 extension UIView {
     func addVerticalGradientLayerDevelopersVC() {
         let primaryColor = UIColor(
